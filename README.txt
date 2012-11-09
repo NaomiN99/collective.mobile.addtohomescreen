@@ -50,22 +50,22 @@ Installation
 You can install collective.mobile.addtohomescreen on Plone 4.x websites. 
 
 - Add the following to your buildout.cfg:
-  
-    eggs = 
-      ...
-	     collective.mobile.addtohomescreen
 
-    zcml =
+        eggs = 
             ...
-             collective.mobile.addtohomescreen
+            collective.mobile.addtohomescreen
+
+        zcml =
+            ...
+            collective.mobile.addtohomescreen
 
 - Rerun buildout, e.g. with:
 
-     $ ./bin/buildout
+        $ ./bin/buildout
 
 - Restart the Zope server, e.g with the following command in the terminal:
 
-     $ ./bin/instance restart
+        $ ./bin/instance restart
 
 Configuration
 -------------
